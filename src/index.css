@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh; ;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.App {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  min-height: 1532px;
+  flex-wrap: wrap;
+}
+.Button {
+  width: 634px;
+  min-height: 116px;
+  display: flex;
+  gap: 20px;
+  opacity: 0px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Input {
+  width: 634px;
+  height: 140px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.Typography {
+  width: 634px;
+  height: 140px;
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.Heading {
+  width: 634px;
+  height: auto;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Tooltip {
+  width: 634px;
+  min-height: 140px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.Typography {
+  margin-bottom: 90px; 
+}
+
