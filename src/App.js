@@ -18,13 +18,13 @@ function App() {
     <div className="App">
       
       <div className="Button">
-        <Button size="lg" variant="primary" type="submit" disabled="disabled">
+        <Button size="lg" variant="primary" type="submit">
           lg, primary
         </Button>
         <Button size="md" variant="primary" type="reset">
           md, primary
         </Button>
-        <Button size="sm" variant="primary">
+        <Button size="sm" variant="primary" disabled="disabled">
           sm, primary
         </Button>
         <Button size="md" variant="primary">
