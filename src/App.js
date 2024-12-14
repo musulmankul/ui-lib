@@ -53,7 +53,7 @@ function App() {
         <Input disabled="disabled" label="Name" />
         <Input
           label="Name"
-          placeholder="almir"
+          placeholder="Musulmankul"
           value={inputValue}
           onChange={handleChange}
         />
@@ -90,27 +90,28 @@ function App() {
       <div className="Tooltip">
         <Tooltip  position="top" text='I am a tooltip'>
           Tooltip top
-          </Tooltip>
-          <Tooltip  position="left" text='I am a tooltip'>
+        </Tooltip>
+        <Tooltip  position="left" text='I am a tooltip'>
           Tooltip left
-          </Tooltip>
-          <Tooltip  position="right" text='I am a tooltip'>
+        </Tooltip>
+        <Tooltip  position="right" text='I am a tooltip'>
           Tooltip right
-          </Tooltip>
-          <Tooltip  position="bottom" text='I am a tooltip'>
+        </Tooltip>
+        <Tooltip  position="bottom" text='I am a tooltip'>
           Tooltip bottom
-          </Tooltip>
+        </Tooltip>
         
-        </div>
-        <div className="Accordion">
-      <Accordion title="Accordion 1" defaultOpen>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-      </Accordion>
+      </div>
+      <div className="Accordion">
+        <Accordion title="Accordion 1">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </Accordion>
       
-      <Accordion title="Accordion 2">
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Accordion>
-    </div>
+        <Accordion title="Accordion 2" defaultOpen>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Accordion>
+      </div>
       
     </div>
   );
